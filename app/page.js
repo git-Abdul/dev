@@ -46,9 +46,8 @@ export default function Home() {
             </svg>
           </button>
           <div
-            className={`${
-              isNavOpen ? "block" : "hidden"
-            } w-full md:block md:w-auto`}
+            className={`${isNavOpen ? "block" : "hidden"
+              } w-full md:block md:w-auto`}
             id="navbar-default"
           >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
@@ -93,7 +92,7 @@ export default function Home() {
         />
       </div>
       {/*Main heading and image*/}
-      <div className="flex flex-col md:flex-row justify-center items-center mt-30">
+      <div className="flex flex-col md:flex-row justify-center items-center md:mt-30 mt-20">
         <p
           className="font-poppins text-white mb-10 font-bold mt-10 md:w-3/4 md:text-5xl text-3xl select-none md:text-left md:ml-10"
           style={{ padding: 30 }}
@@ -102,11 +101,34 @@ export default function Home() {
         </p>
         <img
           src="main.svg"
-          alt="community"
+          alt="svg"
           loading="lazy"
-          className="community-img mr-30 ml-30"
+          className="svg"
         />
       </div>
+      <div className="flex justify-center items-center my-10">
+        <Link href={"/about"}>
+          <button className="text-zinc-900 bg-teal-500 transition hover:-translate-y-2 text-lg duration-300 px-5 py-3 font-semibold font-poppins rounded-md">More about me</button>
+        </Link>
+      </div>
+      <hr class="w-40 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700"></hr>
+      <footer class="rounded-lg shadow m-4 bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+          <span class="text-sm sm:text-center text-gray-400">Hey here's some other goodies:
+          </span>
+          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+              <Link href={"/toolbox"} class="mr-4 hover:underline md:mr-6 ">Toolbox</Link>
+            </li>
+            <li>
+              <Link href={"/resume"} class="mr-4 hover:underline md:mr-6 ">Resume</Link>
+            </li>
+            <li>
+              <Link href={"LICENSE"} class="mr-4 hover:underline md:mr-6 ">Legal</Link>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </main>
   );
 }
