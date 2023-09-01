@@ -92,16 +92,16 @@ export default function Home() {
       {/* About text and image container */}
       <div className="flex justify-center items-center mt-20 select-none">
         <h1 className="text-teal-400 text-center uppercase font-bold mt-14 text-lg font-bridge">
-          Projects
+          Resume
         </h1>
       </div>
       <div className="flex justify-center items-center select-none">
         <h1 className="text-white p-3 text-center font-bold mt-3 text-5xl font-poppins">
-          Here's a selection of my best works.
+          Hey I'm just fourteen...
         </h1>
       </div>
       <div className="flex justify-center items-center select-none">
-        <img src="" alt="think" className="my-20 w-96 h-96"/>
+        <img src="thinking.png" className="my-20 w-96 h-96"/>
       </div>
       <footer class="rounded-lg shadow m-4 bg-gray-800">
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">

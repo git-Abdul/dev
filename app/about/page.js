@@ -3,8 +3,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-import "./about.css";
-
 export default function Home() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -93,8 +91,8 @@ export default function Home() {
       </div>
       {/* About text and image container */}
       <div className="flex justify-center items-center mt-20 select-none">
-        <h1 className="text-teal-400 text-center font-bold mt-14 text-lg font-bridge">
-          ABOUT ME
+        <h1 className="text-teal-400 text-center uppercase font-bold mt-14 text-lg font-bridge">
+          About me
         </h1>
       </div>
       <div className="flex justify-center items-center select-none">
