@@ -108,7 +108,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center my-10">
         <Link href={"/about"}>
-          <button className="text-zinc-900 bg-teal-400 transition hover:-translate-y-2 text-lg duration-300 px-5 py-3 font-semibold font-poppins rounded-md">More about me</button>
+          <button className="text-zinc-900 bg-teal-400 transition hover:scale-110 hover:-translate-y-2 text-lg duration-300 px-5 py-3 font-semibold font-poppins rounded-md">More about me</button>
         </Link>
       </div>
       <hr class="w-40 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700"></hr>
@@ -124,7 +124,7 @@ export default function Home() {
               <Link href={"/resume"} class="mr-4 hover:underline md:mr-6 ">Resume</Link>
             </li>
             <li>
-              <Link href={"LICENSE"} class="mr-4 hover:underline md:mr-6 ">Legal</Link>
+              <Link href={"LICENSE.md"} class="mr-4 hover:underline md:mr-6 ">Legal</Link>
             </li>
           </ul>
         </div>

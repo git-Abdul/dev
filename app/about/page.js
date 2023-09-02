@@ -230,7 +230,7 @@ export default function Home() {
               <Link href={"/resume"} class="mr-4 hover:underline md:mr-6 ">Resume</Link>
             </li>
             <li>
-              <Link href={"LICENSE"} class="mr-4 hover:underline md:mr-6 ">Legal</Link>
+              <Link href={"LICENSE.md"} class="mr-4 hover:underline md:mr-6 ">Legal</Link>
             </li>
           </ul>
         </div>
