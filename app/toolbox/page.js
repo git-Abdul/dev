@@ -52,7 +52,7 @@ export default function ToolBox() {
               <li>
                 <Link href={"/"}>
                   <p
-                    className="block text-lg py-2 pl-3 pr-4 text-teal-300 rounded md:bg-transparent md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500"
+                    className="block text-lg py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500"
                     aria-current="page"
                   >
                     Home
@@ -70,6 +70,13 @@ export default function ToolBox() {
                 <Link href={"/projects"}>
                   <p className="block text-lg py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
                     Projects
+                  </p>
+                </Link>
+              </li>
+              <li>
+                <Link href={"/toolbox"}>
+                  <p className="block text-lg py-2 pl-3 pr-4 text-teal-300 rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
+                    Toolbox
                   </p>
                 </Link>
               </li>
@@ -101,7 +108,7 @@ export default function ToolBox() {
         </h1>
       </div>
       <div className="flex flex-col-reverse md:flex-row mt-14"></div>
-      <div className="md:ml-20 ml-10 select-none link">
+      <div className="md:ml-20 ml-10 select-none">
         <h1 className="text-3xl font-poppins font-semibold">Software</h1>
       </div>
       {/*Tool box grid*/}
@@ -199,15 +206,70 @@ export default function ToolBox() {
                 Best place to build UI/UX designs for fun and for the web.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark">Check it out!</a>
+                <a href="https://figma.com">Check it out!</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-
+      {/*This site*/}
+      <div className="md:ml-20 ml-10 select-none">
+        <h1 className="text-3xl font-poppins font-semibold">This Site & Server</h1>
+      </div>
+      <div class="mx-auto w-full max-w-screen-xl md:px-20 p-5 select-none">
+        <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+          <div>
+            <h2 class="text-2xl font-semibold text-white">Next.js</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#framework #coding</h2>
+            <ul class="text-gray-400 font-medium">
+              <li>
+              This site is built with Next.js. All of the pages on my site are either statically generated at build time, or incrementally regenerate to fetch new data.
+              </li>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://nextjs.org">Check it out!</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-2xl font-semibold text-white">TailwindCSS</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#coding #appearance</h2>
+            <ul class="text-gray-400 font-medium">
+              <li>
+              A utility-first CSS framework packed with pre-built classes that can be composed to build any design, directly in your markup.
+              </li>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://tailwindcss.com">Check it out!</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-2xl font-semibold text-white">Github Pages</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#extension #coding</h2>
+            <ul class="text-gray-400 font-medium">
+              <li>
+                A easy to use free react webserver where I can host my website in a few clicks.
+              </li>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://github.io">Check it out!</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-2xl font-semibold text-white">Icons8</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#icons</h2>
+            <ul class="text-gray-400 font-medium">
+              <li>
+                A beautiful, vibrant and diverse icon library.
+              </li>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://icons8.com">Check it out!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <hr class="w-40 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700"></hr>
-  
+
     </main>
   );
 }

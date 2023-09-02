@@ -73,6 +73,13 @@ export default function Resume() {
                   </p>
                 </Link>
               </li>
+              <li>
+                <Link href={"/toolbox"}>
+                  <p className="block text-lg py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
+                    Toolbox
+                  </p>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
