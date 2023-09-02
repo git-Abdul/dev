@@ -35,4 +35,7 @@ body {
   .md\:mt-30 {
       margin-top: 8rem/* 80px */;
   }
+  .md\:-mt-30 {
+    margin-top: -160px/* 80px */;
+}
 }
