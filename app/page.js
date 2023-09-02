@@ -94,7 +94,7 @@ export default function Home() {
       {/*Main heading and image*/}
       <div className="flex flex-col md:flex-row justify-center items-center md:mt-30 mt-20">
         <p
-          className="font-poppins text-white mb-10 font-bold mt-10 md:w-3/4 md:text-5xl text-3xl select-none md:text-left md:ml-10"
+          className="font-poppins text-white mb-10 font-bold md:text-left text-center mt-10 md:w-3/4 md:text-5xl text-3xl select-none md:ml-10"
           style={{ padding: 30 }}
         >
           I'm <span className="text-teal-300">Abdul</span>, frontend developer and Python enthusiast.
