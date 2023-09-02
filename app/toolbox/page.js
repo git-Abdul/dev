@@ -105,62 +105,101 @@ export default function ToolBox() {
         <h1 className="text-3xl font-poppins font-semibold">Software</h1>
       </div>
       {/*Tool box grid*/}
-      <div class="mx-auto w-full max-w-screen-xl md:px-20 p-5">
+      <div class="mx-auto w-full max-w-screen-xl md:px-20 p-5 select-none">
         <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <div>
-            <h2 class="text-lg font-semibold text-white">Spotify</h2>
+            <h2 class="text-2xl font-semibold text-white">Spotify</h2>
             <h2 className="mb-6 text-gray-300 text-sm mt-1">#music</h2>
             <ul class="text-gray-400 font-medium">
-              <li class="mb-4">
-                
+              <li>
+                I know Spotify has many ads, but I really enjoy this music streaming service.
+              </li>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://spotify.com">Check it out!</a>
               </li>
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-lg font-semibold text-white">Help center</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Discord Server</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Twitter</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Facebook</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 class="mb-6 text-lg font-semibold text-white">Legal</h2>
+            <h2 class="text-2xl font-semibold text-white">Notion</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#application #coding #productivity</h2>
             <ul class="text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Privacy Policy</a>
+              <li>
+                Notion helps me plan out my workflow and focus on the most important tasks.
               </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Licensing</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://notion.so">Check it out!</a>
               </li>
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-lg font-semibold text-white">Download</h2>
+            <h2 class="text-2xl font-semibold text-white">Prettier</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#extension #coding</h2>
             <ul class="text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="#" class="hover:underline">iOS</a>
+              <li>
+                An opinionated code formatter.
               </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Android</a>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Check it out!</a>
               </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Windows</a>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-2xl font-semibold text-white">Fluent Theme for VS Code</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#extension #coding</h2>
+            <ul class="text-gray-400 font-medium">
+              <li>
+                This theme adds a fluent Windows 11 look to VS Code.
               </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">MacOS</a>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://spotify.com">Check it out!</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-2xl font-semibold text-white">VS Code</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#coding #application</h2>
+            <ul class="text-gray-400 font-medium">
+              <li>
+                My code editor of choice. I’ve tried all the others out there - VSCode just works best for me!
+              </li>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://code.visualstudio.com">Check it out!</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-2xl font-semibold text-white">TailwindCSS IntelliSense</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#coding #extension</h2>
+            <ul class="text-gray-400 font-medium">
+              <li>
+                Intelligent TailwindCSS tooling for VSCode.
+              </li>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss">Check it out!</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-2xl font-semibold text-white">Ariake Dark theme for VSCode</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#coding #appearance</h2>
+            <ul class="text-gray-400 font-medium">
+              <li>
+                A VSCode theme by wart
+              </li>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark">Check it out!</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-2xl font-semibold text-white">Figma</h2>
+            <h2 className="mb-6 text-gray-300 text-sm mt-1">#coding #appearance #application</h2>
+            <ul class="text-gray-400 font-medium">
+              <li>
+                Best place to build UI/UX designs for fun and for the web.
+              </li>
+              <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
+                <a href="https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -168,24 +207,7 @@ export default function ToolBox() {
       </div>
 
       <hr class="w-40 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700"></hr>
-      
-      <footer class="rounded-lg shadow m-4 bg-gray-800">
-        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between select-none">
-          <span class="text-sm sm:text-center text-gray-400">Hey here's some other goodies:
-          </span>
-          <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-            <li>
-              <Link href={"/toolbox"} class="mr-4 hover:underline md:mr-6 ">Toolbox</Link>
-            </li>
-            <li>
-              <Link href={"/resume"} class="mr-4 hover:underline md:mr-6 ">Resume</Link>
-            </li>
-            <li>
-              <Link href={"LICENSE.md"} class="mr-4 hover:underline md:mr-6 ">Legal</Link>
-            </li>
-          </ul>
-        </div>
-      </footer>
+  
     </main>
   );
 }

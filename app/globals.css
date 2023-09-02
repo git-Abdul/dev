@@ -31,6 +31,12 @@ body {
   text-decoration-color: #2dd4bf;
 }
 
+.link:hover {
+  transition: ease-out;
+  transition-duration: 150ms;
+  color: #2dd4bf;
+}
+
 @media (min-width: 768px) {
   .md\:mt-30 {
       margin-top: 8rem/* 80px */;
