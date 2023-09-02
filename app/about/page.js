@@ -8,7 +8,7 @@ export default function Home() {
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
-  };
+  };  
 
   return (
     <main>
@@ -191,7 +191,7 @@ export default function Home() {
         </h1>
       </div>
       {/* SVG Icons */}
-      <div className="flex justify-center gap-5 mb-14">
+      <div className="flex justify-center gap-5 mb-14 select-none">
         <img
           src="icon1.svg"
           alt="Icon 1"
