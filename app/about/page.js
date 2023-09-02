@@ -3,12 +3,12 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
-  };  
+  };
 
   return (
     <main>

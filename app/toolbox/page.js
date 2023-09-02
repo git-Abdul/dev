@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-export default function Home() {
+export default function ToolBox() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -177,6 +177,7 @@ export default function Home() {
       </div>
 
       <hr class="w-40 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700"></hr>
+      
       <footer class="rounded-lg shadow m-4 bg-gray-800">
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between select-none">
           <span class="text-sm sm:text-center text-gray-400">Hey here's some other goodies:
