@@ -112,16 +112,7 @@ export default function ToolBox() {
             <h2 className="mb-6 text-gray-300 text-sm mt-1">#music</h2>
             <ul class="text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="#" class=" hover:underline">About</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Careers</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Brand Center</a>
-              </li>
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Blog</a>
+                
               </li>
             </ul>
           </div>
