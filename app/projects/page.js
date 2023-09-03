@@ -108,6 +108,11 @@ export default function Projects() {
           Here's a selection of my best works.
         </h1>
       </div>
+      <div className="flex justify-center items-center select-none">
+        <h1 className="text-teal-400 text-center font-bold text-xl mt-14 font-bridge">
+          Coming soon!
+        </h1>
+      </div>
       <div className="space-y-12 md:p-16 p-10 mt-10 select-none">
         <div className="relative w-full overflow-hidden border rounded-3xl bg-gradient-to-b from-slate-800 to-teal-600 border-slate-700">
           <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-teal-500 to-transparent"></div>
