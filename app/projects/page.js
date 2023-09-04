@@ -129,7 +129,7 @@ export default function Projects() {
             <div className="md:absolute md:top-4 md:right-[-200px] md:w-[800px]">
               <img
                 objectFit="fill"
-                src="mac.png"
+                src="mac1.png"
                 width={900}
                 height={552}
                 layout="intrinsic"
