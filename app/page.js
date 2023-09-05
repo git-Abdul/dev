@@ -17,9 +17,9 @@ export default function Home() {
       {/* Navbar */}
       <nav className="item-blur bg-fixed select-none fixed w-full top-0 z-10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-6">
-          <a href="#" className="flex items-center">
+          <Link className="flex items-center" href={"/"}>
             <img src="logo.png" class="md:h-16 h-12" alt="logo-svg" />
-          </a>
+          </Link>
           <button
             onClick={toggleNav}
             data-collapse-toggle="navbar-default"

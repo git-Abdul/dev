@@ -14,10 +14,11 @@ export default function Projects() {
     <main>
       {/* Navbar */}
       <nav className="item-blur bg-fixed select-none fixed w-full top-0 z-10">
+        <div className= "z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent"></div>
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-6">
-          <a href="#" className="flex items-center">
+          <Link className="flex items-center" href={"/"}>
             <img src="logo.png" class="md:h-16 h-12" alt="logo-svg" />
-          </a>
+          </Link>
           <button
             onClick={toggleNav}
             data-collapse-toggle="navbar-default"
@@ -129,7 +130,7 @@ export default function Projects() {
             <div className="md:absolute md:top-4 md:right-[-200px] md:w-[800px]">
               <img
                 objectFit="fill"
-                src="mac1.png"
+                src="mac.png"
                 width={900}
                 height={552}
                 layout="intrinsic"

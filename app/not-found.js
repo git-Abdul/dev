@@ -98,13 +98,13 @@ export default function Resume() {
       </div>
       {/* About text and image container */}
       <div className="flex justify-center items-center mt-20 select-none">
-        <h1 className="text-teal-400 text-center uppercase font-bold mt-14 text-lg font-bridge">
-          Resume
+        <h1 className="text-teal-400 text-center uppercase font-bold mt-14 text-3xl font-bridge">
+          Error 404
         </h1>
       </div>
       <div className="flex justify-center items-center select-none">
         <h1 className="text-white p-3 text-center font-bold mt-3 text-5xl font-poppins">
-          Hey I'm just fourteen...
+          I guess this is the wrong page...
         </h1>
       </div>
       <div className="flex justify-center items-center select-none">
