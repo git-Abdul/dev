@@ -4,7 +4,6 @@
 <hr>
 I understand that you use an `app` directory instead of a `src` directory in your project structure. Here's an updated README file template to reflect this directory structure:
 
-```markdown
 # Developer Portfolio
 
 Welcome to my developer portfolio website! This project was built using React and Next.js with the App Router method, allowing for a seamless and dynamic user experience. Below, you'll find information on how to set up, customize, and deploy this portfolio for your own use.
