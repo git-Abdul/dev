@@ -16,7 +16,7 @@ export default function Home() {
     <main>
       {/* Navbar */}
       <nav className="item-blur bg-fixed select-none fixed w-full top-0 z-10">
-      <div className= "z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent"/>
+        <div className="z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-6">
           <Link className="flex items-center" href={"/"}>
             <img src="logo.png" class="md:h-16 h-12" alt="logo-svg" />
@@ -102,7 +102,7 @@ export default function Home() {
       {/*Main heading and image*/}
       <div className="flex flex-col md:flex-row justify-center items-center md:mt-30 mt-20">
         <p
-          className="font-poppins text-white mb-10 font-bold md:text-left text-center mt-10 md:w-3/4 md:text-5xl text-3xl select-none md:ml-10"
+          className="font-poppins text-white font-bold md:text-left text-center mt-10 md:w-3/4 md:text-5xl text-3xl select-none md:ml-10"
           style={{ padding: 30 }}
         >
           I'm <span className="text-teal-300">Abdul</span>, frontend developer and Python enthusiast.
@@ -113,6 +113,48 @@ export default function Home() {
           loading="lazy"
           className="svg"
         />
+      </div>
+      <div className="flex md:justify-normal md:ml-16 justify-center">
+        <h1 className="text-teal-400 uppercase text-center font-bold my-2 text-lg font-bridge">
+          Tech stack
+        </h1>
+      </div>
+      <div className="flex md:justify-normal md:ml-16 justify-center gap-5 mb-14 select-none">
+        <a href="https://python.org">
+          <img
+            src="icon1.svg"
+            alt="Icon 1"
+            className="w-8 h-8"
+          />
+        </a>
+        <a href="https://react.dev">
+          <img
+            src="icon2.svg"
+            alt="Icon 2"
+            className="w-8 h-8"
+          />
+        </a>
+        <a href="">
+          <img
+            src="icon3.svg"
+            alt="Icon 3"
+            className="w-8 h-8"
+          />
+        </a>
+        <a href="">
+          <img
+            src="icon4.svg"
+            alt="Icon 4"
+            className="w-8 h-8"
+          />
+        </a>
+        <a href="https://java.com">
+          <img
+            src="icon5.svg"
+            alt="Icon 5"
+            className="w-8 h-8"
+          />
+        </a>
       </div>
       <div className="flex justify-center items-center my-10">
         <Link href={"/about"}>
