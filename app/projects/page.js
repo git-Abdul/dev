@@ -123,14 +123,14 @@ export default function Projects() {
               <p className="mb-4">
                 CryptoCoin is a crypto app that allows users to search for information about various cryptocurrencies in real-time.
               </p>
-              <Link href={""}>
+              <Link href={"https://git-abdul/github.io/crypto-app"}>
                 <button className="text-white bg-zinc-800 transition hover:scale-110 hover:-translate-y-2 text-md duration-300 px-5 py-3 font-semibold font-poppins rounded-md">Visit the site</button>
               </Link>
             </div>
             <div className="md:absolute md:top-4 md:right-[-200px] md:w-[800px]">
               <img
                 objectFit="fill"
-                src="mac.png"
+                src="mac1.png"
                 width={900}
                 height={552}
                 layout="intrinsic"
@@ -151,14 +151,14 @@ export default function Projects() {
               <p className="mb-4">
                 With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.
               </p>
-              <Link href={""}>
+              <Link href={"https://git-abdul/github.io/shop-app"}>
                 <button className="text-white bg-zinc-800 transition hover:scale-110 hover:-translate-y-2 text-md duration-300 px-5 py-3 font-semibold font-poppins rounded-md">Visit the site</button>
               </Link>
             </div>
             <div className="md:absolute md:top-4 md:right-[-200px] md:w-[800px]">
               <img
                 objectFit="fill"
-                src="mac.png"
+                src="mac2.png"
                 width={900}
                 height={552}
                 layout="intrinsic"
