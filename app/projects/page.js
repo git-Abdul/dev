@@ -13,11 +13,11 @@ export default function Projects() {
   return (
     <main>
       {/* Navbar */}
-      <nav className="item-blur bg-fixed select-none fixed w-full top-0 z-10">
-        <div className= "z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent"/>
+      <nav className="item-blur bg-fixed border-zinc-800 border-b select-none fixed w-full top-0 z-10">
+        <div className="z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-6">
           <Link className="flex items-center" href={"/"}>
-            <img src="logo.png" class="md:h-16 h-12" alt="logo-svg" />
+            <img src="logo.png" class="h-9 m-1" alt="logo-svg" />
           </Link>
           <button
             onClick={toggleNav}
@@ -123,7 +123,7 @@ export default function Projects() {
               <p className="mb-4">
                 CryptoCoin is a crypto app that allows users to search for information about various cryptocurrencies in real-time.
               </p>
-              <Link href={"https://git-abdul.github.io/crypto-app"}>
+              <Link href={"https://git-abdul.github.io/crypto-app"} target="_blank" rel="noopener noreferrer">
                 <button className="text-white bg-zinc-800 transition hover:scale-110 hover:-translate-y-2 text-md duration-300 px-5 py-3 font-semibold font-poppins rounded-md">Visit the site</button>
               </Link>
             </div>
@@ -151,7 +151,7 @@ export default function Projects() {
               <p className="mb-4">
                 With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.
               </p>
-              <Link href={"https://git-abdul.github.io/shop-app"}>
+              <Link href={"https://git-abdul.github.io/shop-app"} target="_blank" rel="noopener noreferrer">
                 <button className="text-white bg-zinc-800 transition hover:scale-110 hover:-translate-y-2 text-md duration-300 px-5 py-3 font-semibold font-poppins rounded-md">Visit the site</button>
               </Link>
             </div>
@@ -179,7 +179,7 @@ export default function Projects() {
               <p className="mb-4">
                 This is a weather app that allows users to search and view information about various weather conditions in real-time.
               </p>
-              <Link href={""}>
+              <Link href={""} target="_blank" rel="noopener noreferrer">
                 <button className="text-white bg-zinc-800 transition hover:scale-110 hover:-translate-y-2 text-md duration-300 px-5 py-3 font-semibold font-poppins rounded-md">Visit the site</button>
               </Link>
             </div>

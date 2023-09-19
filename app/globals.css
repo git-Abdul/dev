@@ -20,7 +20,8 @@ body {
 }
 
 .item-blur {
-  backdrop-filter: blur(20px);
+  background-color: #1d1f1e21;
+  backdrop-filter: blur(10px);
 }
 
 .link {

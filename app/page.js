@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 import "./fonts.css";
+import Image from "next/image";
 
 export default function Home() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -15,11 +16,11 @@ export default function Home() {
   return (
     <main>
       {/* Navbar */}
-      <nav className="item-blur bg-fixed select-none fixed w-full top-0 z-10">
+      <nav className="item-blur bg-fixed border-zinc-800 border-b select-none fixed w-full top-0 z-10">
         <div className="z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-6">
           <Link className="flex items-center" href={"/"}>
-            <img src="logo.png" class="md:h-16 h-12" alt="logo-svg" />
+            <img src="logo.png" class="h-9 m-1" alt="logo-svg" />
           </Link>
           <button
             onClick={toggleNav}
@@ -107,9 +108,11 @@ export default function Home() {
         >
           I'm <span className="text-teal-300">Abdul</span>, frontend developer and Python enthusiast.
         </p>
-        <img
+        <Image
           src="main.svg"
           alt="svg"
+          width="450"
+          height="300"
           loading="lazy"
           className="svg"
         />
@@ -120,14 +123,14 @@ export default function Home() {
         </h1>
       </div>
       <div className="flex md:justify-normal md:ml-16 justify-center gap-5 mb-14 select-none">
-        <a href="https://python.org">
+        <a href="https://python.org" target="_blank" rel="noopener noreferrer">
           <img
             src="icon1.svg"
             alt="Icon 1"
             className="w-8 h-8"
           />
         </a>
-        <a href="https://react.dev">
+        <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
           <img
             src="icon2.svg"
             alt="Icon 2"
@@ -148,7 +151,7 @@ export default function Home() {
             className="w-8 h-8"
           />
         </a>
-        <a href="https://java.com">
+        <a href="https://java.com" target="_blank" rel="noopener noreferrer">
           <img
             src="icon5.svg"
             alt="Icon 5"

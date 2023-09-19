@@ -13,11 +13,11 @@ export default function About() {
   return (
     <main>
       {/* Navbar */}
-      <nav className="item-blur bg-fixed select-none fixed w-full top-0 z-10">
-        <div className= "z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent"/>
+      <nav className="item-blur bg-fixed border-zinc-800 border-b select-none fixed w-full top-0 z-10">
+        <div className="z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-6">
           <Link className="flex items-center" href={"/"}>
-            <img src="logo.png" class="md:h-16 h-12" alt="logo-svg" />
+            <img src="logo.png" class="h-9 m-1" alt="logo-svg" />
           </Link>
           <button
             onClick={toggleNav}
@@ -115,7 +115,7 @@ export default function About() {
           style={{ lineHeight: "30pt" }}
         >
           Hey there! I'm Abdul, a fourteen year old{" "}
-          <Link className="link" href={"https://github.com/git-Abdul"}>
+          <Link className="link" href={"https://github.com/git-Abdul"} target="_blank" rel="noopener noreferrer">
             developer
           </Link>
           , creative and critical programmer specializing in front end ui
@@ -127,7 +127,7 @@ export default function About() {
           During the tough times of the COVID-19 Pandemic I was bored and
           willing to do anything to pass time, it was at that time I had gotten
           introduced to coding. The first language I tried out was{" "}
-          <Link href={"https://python.org"} className="link">
+          <Link href={"https://python.org"} className="link" target="_blank" rel="noopener noreferrer">
             Python
           </Link>{" "}
           which is relatively easy for a begginer. Starting out i was eager to
@@ -136,6 +136,7 @@ export default function About() {
           <Link
             href={"https://docs.python.org/3/library/tk.html"}
             className="link"
+            target="_blank" rel="noopener noreferrer"
           >
             Tkinter
           </Link>{" "}
@@ -144,7 +145,7 @@ export default function About() {
           <br />
           <br />
           Some of the projects that I've made can be seen on the{" "}
-          <Link href={"/projects"} className="link">
+          <Link href={"/projects"} className="link" target="_blank" rel="noopener noreferrer">
             projects
           </Link>{" "}
           section of this website, although some projects I would truly like to
@@ -152,6 +153,7 @@ export default function About() {
           <Link
             href={"https://discordpy.readthedocs.io/en/stable/"}
             className="link"
+            target="_blank" rel="noopener noreferrer"
           >
             Discord.py
           </Link>{" "}
@@ -159,6 +161,7 @@ export default function About() {
           <Link
             href={"https://github.com/git-Abdul/krypticBot"}
             className="link"
+            target="_blank" rel="noopener noreferrer"
           >
             open-source
           </Link>{" "}
@@ -166,27 +169,27 @@ export default function About() {
           started learning <span className="link">HTML, CSS</span> and{" "}
           <span className="link">JavaScript</span>. After seeing the
           potential of the web, I started learning{" "}
-          <Link href={"https://react.dev"} className="link">
+          <Link href={"https://react.dev"} className="link" target="_blank" rel="noopener noreferrer">
             React
           </Link>{" "}
           with the{" "}
-          <Link href={"https://nextjs.org"} className="link">
+          <Link href={"https://nextjs.org"} className="link" target="_blank" rel="noopener noreferrer">
             Next.js
           </Link>{" "}
           framework, infact this very website is made using React and Next.js.{" "}Currently I am learning <span className="link">Java</span> that also helps my journey as a JavaScript developer.
           <br />
           <br />
           You can find me on{" "}
-          <Link href={"https://github.com/git-Abdul"} className="link">
+          <Link href={"https://github.com/git-Abdul"} className="link" target="_blank" rel="noopener noreferrer">
             Github
           </Link>{" "}
           where I post my recent projects and development ideas for UI/UX
           designs, or you can follow me on my{" "}
-          <Link href={"https://instagram.com/abdul.__.r"} className="link">
+          <Link href={"https://instagram.com/abdul.__.r"} className="link" target="_blank" rel="noopener noreferrer">
             Instagram
           </Link>{" "}
           and{" "}
-          <Link href={"https://twitter.com/ARtwitrX"} className="link">
+          <Link href={"https://twitter.com/ARtwitrX"} className="link" target="_blank" rel="noopener noreferrer">
             Twitter
           </Link>{" "}
           handles.

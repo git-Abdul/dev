@@ -13,11 +13,11 @@ export default function ToolBox() {
   return (
     <main>
       {/* Navbar */}
-      <nav className="item-blur bg-fixed select-none fixed w-full top-0 z-10">
-      <div className= "z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent"/>
+      <nav className="item-blur bg-fixed border-zinc-800 border-b select-none fixed w-full top-0 z-10">
+        <div className="z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-6">
           <Link className="flex items-center" href={"/"}>
-            <img src="logo.png" class="md:h-16 h-12" alt="logo-svg" />
+            <img src="logo.png" class="h-9 m-1" alt="logo-svg" />
           </Link>
           <button
             onClick={toggleNav}
@@ -123,7 +123,7 @@ export default function ToolBox() {
                 I know Spotify has many ads, but I really enjoy this music streaming service.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://spotify.com">Check it out!</a>
+                <a href="https://spotify.com" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -135,7 +135,7 @@ export default function ToolBox() {
                 Notion helps me plan out my workflow and focus on the most important tasks.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://notion.so">Check it out!</a>
+                <a href="https://notion.so" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -147,7 +147,7 @@ export default function ToolBox() {
                 An opinionated code formatter.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Check it out!</a>
+                <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -159,7 +159,7 @@ export default function ToolBox() {
                 This theme adds a fluent Windows 11 look to VS Code.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://spotify.com">Check it out!</a>
+                <a href="https://spotify.com" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -171,7 +171,7 @@ export default function ToolBox() {
                 My code editor of choice. I’ve tried all the others out there - VSCode just works best for me!
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://code.visualstudio.com">Check it out!</a>
+                <a href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -183,7 +183,7 @@ export default function ToolBox() {
                 Intelligent TailwindCSS tooling for VSCode.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss">Check it out!</a>
+                <a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -195,7 +195,7 @@ export default function ToolBox() {
                 A VSCode theme by wart
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark">Check it out!</a>
+                <a href="https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -207,7 +207,7 @@ export default function ToolBox() {
                 Best place to build UI/UX designs for fun and for the web.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://figma.com">Check it out!</a>
+                <a href="https://figma.com" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -227,7 +227,7 @@ export default function ToolBox() {
               This site is built with Next.js. All of the pages on my site are either statically generated at build time, or incrementally regenerate to fetch new data.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://nextjs.org">Check it out!</a>
+                <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -239,7 +239,7 @@ export default function ToolBox() {
               A utility-first CSS framework packed with pre-built classes that can be composed to build any design, directly in your markup.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://tailwindcss.com">Check it out!</a>
+                <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -251,7 +251,7 @@ export default function ToolBox() {
                 A easy to use free react webserver where I can host my website in a few clicks.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://github.io">Check it out!</a>
+                <a href="https://github.io" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
@@ -263,7 +263,7 @@ export default function ToolBox() {
                 A beautiful, vibrant and diverse icon library.
               </li>
               <li className="mb-4 mt-2 text-lg link hover:text-teal-400">
-                <a href="https://icons8.com">Check it out!</a>
+                <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Check it out!</a>
               </li>
             </ul>
           </div>
