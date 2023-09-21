@@ -13,7 +13,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="icon" href="favicon.png" sizes="any" />
+      <head>
+        <title>Abdul • Dev</title>
+        <meta content="Embed Title" property="og:title" />
+        <meta content="A simple, sophisticated dev portfolio made using the Next.js framework." property="og:description" />
+        <meta content="https://bit.ly/abdulr" property="og:url" />
+        <meta content="https://i.postimg.cc/J04tdVBW/Thumbnail.png" property="og:image" />
+        <meta content="#14b6a4" data-react-helmet="true" name="theme-color" />
+        <link rel="icon" href="favicon.png" sizes="any" />
+      </head>
       <body className={inter.className}>{children}
         <footer class="rounded-lg shadow m-4 bg-gray-800">
           <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
