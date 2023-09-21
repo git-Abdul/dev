@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Abdul • Dev</title>
-        <meta content="Embed Title" property="og:title" />
+        <meta content="Abdul • Dev" property="og:title" />
         <meta content="A simple, sophisticated dev portfolio made using the Next.js framework." property="og:description" />
         <meta content="https://bit.ly/abdulr" property="og:url" />
         <meta content="https://i.postimg.cc/J04tdVBW/Thumbnail.png" property="og:image" />
