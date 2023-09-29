@@ -13,7 +13,7 @@ export default function Resume() {
   return (
     <main>
       {/* Navbar */}
-      <nav className="item-blur bg-fixed border-zinc-800 border-b select-none fixed w-full top-0 z-10">
+      <nav className="font-bridge item-blur uppercase bg-fixed select-none fixed w-full top-0 z-10">
         <div className="z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-6">
           <Link className="flex items-center" href={"/"}>
@@ -53,7 +53,7 @@ export default function Resume() {
               <li>
                 <Link href={"/"}>
                   <p
-                    className="block text-lg py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500"
+                    className="block text-md py-2 pl-3 pr-4 text-teal-300 rounded md:bg-transparent md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500"
                     aria-current="page"
                   >
                     Home
@@ -62,21 +62,21 @@ export default function Resume() {
               </li>
               <li>
                 <Link href={"/about"}>
-                  <p className="block text-lg py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:p-0 md:dark:hover:bg-transparent">
+                  <p className="block text-md py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:p-0 md:dark:hover:bg-transparent">
                     About
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href={"/projects"}>
-                  <p className="block text-lg py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
+                  <p className="block text-md py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
                     Projects
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href={"/toolbox"}>
-                  <p className="block text-lg py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
+                  <p className="block text-md py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
                     Toolbox
                   </p>
                 </Link>

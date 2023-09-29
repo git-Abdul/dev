@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main>
       {/* Navbar */}
-      <nav className="item-blur bg-fixed border-zinc-800 border-b select-none fixed w-full top-0 z-10">
+      <nav className="font-bridge item-blur uppercase bg-fixed select-none fixed w-full top-0 z-10">
         <div className="z-10 bg-fixed fixed item-blur w-full h-[1.3px] bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 px-6">
           <Link className="flex items-center" href={"/"}>
@@ -56,7 +56,7 @@ export default function Home() {
               <li>
                 <Link href={"/"}>
                   <p
-                    className="block text-lg py-2 pl-3 pr-4 text-teal-300 rounded md:bg-transparent md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500"
+                    className="block text-md py-2 pl-3 pr-4 text-teal-300 rounded md:bg-transparent md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500"
                     aria-current="page"
                   >
                     Home
@@ -65,21 +65,21 @@ export default function Home() {
               </li>
               <li>
                 <Link href={"/about"}>
-                  <p className="block text-lg py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:p-0 md:dark:hover:bg-transparent">
+                  <p className="block text-md py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:p-0 md:dark:hover:bg-transparent">
                     About
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href={"/projects"}>
-                  <p className="block text-lg py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
+                  <p className="block text-md py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
                     Projects
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href={"/toolbox"}>
-                  <p className="block text-lg py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
+                  <p className="block text-md py-2 pl-3 pr-4 text-white rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:text-teal-500 dark:hover:text-teal-500 md:dark:hover:bg-transparent">
                     Toolbox
                   </p>
                 </Link>
@@ -101,7 +101,7 @@ export default function Home() {
         />
       </div>
       {/*Main heading and image*/}
-      <div className="flex flex-col md:flex-row justify-center items-center md:mt-30 mt-20">
+      <div className="flex flex-col md:flex-row justify-center items-center md:mt-32 mt-20">
         <p
           className="font-poppins text-white font-bold md:text-left text-center mt-10 md:w-3/4 md:text-5xl text-3xl select-none md:ml-10"
           style={{ padding: 30 }}
@@ -117,7 +117,7 @@ export default function Home() {
           className="svg"
         />
       </div>
-      <div className="flex md:justify-normal md:ml-16 justify-center">
+      <div className="select-none flex md:justify-normal md:ml-16 justify-center">
         <h1 className="text-teal-400 uppercase text-center font-bold my-2 text-lg font-bridge">
           Tech stack
         </h1>
@@ -161,7 +161,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center my-10">
         <Link href={"/about"}>
-          <button className="text-zinc-900 bg-teal-400 transition hover:scale-110 hover:-translate-y-2 text-lg duration-300 px-5 py-3 font-semibold font-poppins rounded-md">More about me</button>
+          <button className="text-zinc-900 bg-teal-400 transition hover:scale-110 hover:-translate-y-2 text-lg duration-300 px-5 py-3 font-semibold font-poppins rounded-md">More about me {"   "}➜</button>
         </Link>
       </div>
       <hr class="w-40 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700"></hr>
