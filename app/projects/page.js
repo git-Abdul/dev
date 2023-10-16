@@ -120,7 +120,7 @@ export default function Projects() {
                 <h2 className="mt-0 mb-4 text-2xl font-bold font-poppins">HueCraft</h2>
               </div>
               <p className="mb-4">
-                This is a weather app that allows users to search and view information about various weather conditions in real-time.
+                This is an app that allows users to visualize their website color pallete and design in realtime.
               </p>
               <Link href={"https://git-abdul.github.io/huecraft/"} target="_blank" rel="noopener noreferrer">
                 <button className="text-white bg-zinc-800 transition hover:scale-110 hover:-translate-y-2 text-md duration-300 px-5 py-3 font-semibold font-poppins rounded-md">Visit the site</button>
